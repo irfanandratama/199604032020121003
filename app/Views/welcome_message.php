@@ -258,6 +258,7 @@
 <table id="rekrutmen">
 			<thead>				
 				<tr>
+                    <th style="text-align: center;">Nomor></th>
 					<th style="text-align: center;">Nama</th>
 					<th style="text-align: center;">NIP</th>
 					<th style="text-align: center;">Satuan Kerja</th>					
@@ -267,19 +268,26 @@
 					<th style="text-align: center;">Database yang dikuasai</th>					
 					<th style="text-align: center;">Tools yang dikuasai</th>
                     <th style="text-align: center;">Pernah membuat mobile apps</th>
-					<th style="text-align: center;">Waktu Pendaftaran</th>				
+					<th style="text-align: center;">Waktu Pendaftaran</th>
+                    <th style="text-align: center;">Nilai T1</th>					
+					<th style="text-align: center;">Nilai T2</th>
+                    <th style="text-align: center;">Nilai T3</th>
+					<th style="text-align: center;">Link</th>			
 				</tr>				
 			</thead>
 			<tbody>
                 <?php
-                    $json_full = file_get_contents('http://103.226.55.159/json/data_rekrutmen.json');
-                    $data_peserta = json_decode($json_full,true);
+                    $json_recruit = file_get_contents('http://103.226.55.159/json/data_rekrutmen.json');
+                    $data_peserta = json_decode($json_recruit, true);
+                    $json_attr = file_get_contents('http://103.226.55.159/json/data_attribut.json');
+                    $data_attr = json_decode($json_attr, true);
                     foreach ($data_peserta as $value) {
                         $newarr = $value;
                     }
                     foreach ($newarr as $valarr) {
                     ?>
                         <tr>
+                            <td><?php print_r($valarr['id']); ?></td>
                             <td><?php print_r($valarr['nama']); ?></td>
                             <td><?php print_r($valarr['nip']); ?></td>
                             <td><?php print_r($valarr['satuan_kerja']); ?></td>
