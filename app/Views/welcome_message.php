@@ -267,6 +267,10 @@
                             <td><?php print_r($valarr['tools_yang_dikuasai']); ?></td>
                             <td><?php print_r($valarr['pernah_membuat_mobile_apps']); ?></td>
                             <td><?php print_r($valarr['timestamp']); ?></td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
                         </tr>
                     <?php
                     }
