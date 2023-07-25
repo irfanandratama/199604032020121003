@@ -109,38 +109,7 @@
             font-weight: 300;
         }
         section {
-            margin: 0 auto;
-            max-width: 1100px;
-            padding: 2.5rem 1.75rem 3.5rem 1.75rem;
-        }
-        section h1 {
-            margin-bottom: 2.5rem;
-        }
-        section h2 {
-            font-size: 120%;
-            line-height: 2.5rem;
-            padding-top: 1.5rem;
-        }
-        section pre {
-            background-color: rgba(247, 248, 249, 1);
-            border: 1px solid rgba(242, 242, 242, 1);
-            display: block;
-            font-size: .9rem;
-            margin: 2rem 0;
-            padding: 1rem 1.5rem;
-            white-space: pre-wrap;
-            word-break: break-all;
-        }
-        section code {
-            display: block;
-        }
-        section a {
-            color: rgba(221, 72, 20, 1);
-        }
-        section svg {
-            margin-bottom: -5px;
-            margin-right: 5px;
-            width: 25px;
+            padding: 1rem 1.75rem 1.75rem 1.75rem;
         }
         .further {
             background-color: rgba(247, 248, 249, 1);
@@ -291,7 +260,7 @@
                             <td><?php print_r($valarr['nama']); ?></td>
                             <td><?php print_r($valarr['nip']); ?></td>
                             <td><?php print_r($valarr['satuan_kerja']); ?></td>
-                            <td><?php print_r($valuarr['posisi_yang_dipilih']); ?></td>
+                            <td><?php print_r($valarr['posisi_yang_dipilih']); ?></td>
                             <td><?php print_r($valarr['bahasa_pemrograman_yang_dikuasai']); ?></td>
                             <td><?php print_r($valarr['framework_bahasa_pemrograman_yang_dikuasai']); ?></td>
                             <td><?php print_r($valarr['database_yang_dikuasai']); ?></td>
