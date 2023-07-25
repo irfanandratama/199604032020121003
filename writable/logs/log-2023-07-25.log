@@ -1,0 +1,92 @@
+CRITICAL - 2023-07-25 02:46:02 --> Cannot use [] for reading
+in APPPATH\Views\welcome_message.php on line 254.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-25 02:48:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 253.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:51:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 256.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:57:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:57:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:57:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:57:23 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 255.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:58:34 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\welcome_message.php on line 257.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
+CRITICAL - 2023-07-25 02:59:03 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\welcome_message.php on line 257.
+ 1 APPPATH\Views\welcome_message.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant id - assumed \'id\' (this will throw an Error in a future version of PHP)', 'C:\\xampp\\htdocs\\199604032020121003\\app\\Views\\welcome_message.php', 257, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\199604032020121003\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\199604032020121003\\public\\index.php')
